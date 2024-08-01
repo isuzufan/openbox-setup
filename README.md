@@ -16,6 +16,6 @@ cd $HOME/openbox-setup
 sudo chmod +x script-1.sh
 
 ### Run the first script
-./install-1.sh
+./script-1.sh
 
 ### Reboot between each script.
