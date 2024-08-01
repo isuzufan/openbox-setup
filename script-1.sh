@@ -11,5 +11,5 @@ sudo apt upgrade -y
 sudo apt autoremove -y
 
 # Cleanup
-printf "\e[1;32mDone! Please reboot and run script-2.sh\e[0m\n"
+printf "%b\n" "\v\v\v------------------------------------------------------------" " " "\tDONE! Reboot and run script-2.sh." " " "------------------------------------------------------------" "\v\v\v "
 
