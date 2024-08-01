@@ -58,7 +58,7 @@ sudo systemctl enable lxdm
 
 # Cleanup
 sudo apt autoremove
-printf "\e[1;32mDone!  Please reboot and run Script 3.\e[0m\n
+printf "%b\n" "\v\v\v------------------------------------------------------------" " " "\tDONE! Reboot and run script-3.sh." " " "------------------------------------------------------------" "\v\v\v "
 
 
 
