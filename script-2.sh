@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Update all Debian packages
+sudo apt update
+sudo apt upgrade -y
+
 # Install xorg display server
 sudo apt install -y xorg xbacklight xbindkeys xvkbd xinput
 
@@ -36,7 +40,12 @@ sudo apt install -y lxappearance
 # Web browser. This installs firefox, but you can substitute your preferred browser.
 sudo apt install -y firefox-esr
 
-# Wallpaper manager. 
+# Create basic folders
+mkdir -p $HOME/Documents/
+mkdir -p $HOME/Pictures/
+mkdir -p $HOME/.config
+
+# Wallpaper manager
 # First, we copy sample images from the setup package.
 cp -a $HOME/openbox-setup/wallpapers/ $HOME/Pictures/
 # Then we install nitrogen and use it to set a background image. 
@@ -58,7 +67,7 @@ sudo systemctl enable lxdm
 
 # Cleanup
 sudo apt autoremove
-printf "%b\n" "\v\v\v------------------------------------------------------------" " " "\tDONE! Reboot and run script-3.sh." " " "------------------------------------------------------------" "\v\v\v "
+printf "%b\n" "\v\v\v------------------------------------------------------------" " " "\tDONE! Reboot and run script-2.sh." " " "------------------------------------------------------------" "\v\v\v "
 
 
 
