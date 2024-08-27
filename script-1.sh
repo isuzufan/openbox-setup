@@ -49,7 +49,7 @@ sudo systemctl enable acpid
 
 
 ### FILE MANAGER & SEARCH ###
-sudo apt install -y thunar thunar-archive-plugin catfish
+sudo apt install -y thunar thunar-archive-plugin xarchiver catfish
 
 
 ### TERMINAL EMULATOR ###
@@ -74,13 +74,7 @@ sudo apt install -y gdebi synaptic
 
 
 ### WEB BROWSER  ###
-# Brave isn't in the Debian repos. So, below we need to 
-# perform additional steps to get it directly from the source.
-sudo apt install curl
-sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
-echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-sudo apt update
-sudo apt install -y brave-browser
+sudo apt install -y firefox-esr
 
 
 ### AUDIO/VISUAL ###
@@ -94,11 +88,17 @@ sudo apt install -y xrandr lxrandr
 # Wallpaper Editor
 sudo apt install -y nitrogen
 
-# Image Viewer
-sudo apt install -y lximage-qt
-
 # Media Player
 sudo apt install -y vlc
+
+# Image Viewer
+sudo apt install -y shotwell shotwell-common
+
+# PNG Resizer/Compressor
+sudo apt install -y pngquant
+
+# Screen Capture & Color Picker Tools
+sudo apt install -y xfce4-screenshooter gpick
 
 
 ### DEVELOPMENT ###
@@ -108,7 +108,7 @@ sudo apt install -y yad
 ### FONTS & ICON THEMES ###
 
 # Fonts
-sudo apt install -y fonts-firacode fonts-liberation2 fonts-ubuntu fonts-cascadia-code fonts-dejavu fonts-roboto fonts-hack fonts-hack-ttf fonts-open-sans
+sudo apt install -y fonts-firacode fonts-liberation2 fonts-ubuntu fonts-dejavu fonts-roboto fonts-hack fonts-hack-ttf fonts-open-sans
 
 # Icons
 sudo apt install -y papirus-icon-theme breeze-icon-theme deepin-icon-theme faba-icon-theme suru-icon-theme obsidian-icon-theme
@@ -127,13 +127,19 @@ sudo apt install -y qpdfview
 sudo apt install -y geany geany-common
 
 # Customization and Appearance
-sudo apt install -y lxappearance
+sudo apt install -y lxappearance qt5ct
 
 # Power Management
 sudo apt install -y xfce4-power-manager
 
 # Font Viewer
 sudo apt install -y fontmatrix
+
+# Keyboard & Mouse Settings
+sudo apt install -y lxinput
+
+# On-screen Keyboard
+sudo apt install -y onboard onboard-common
 
 
 ### CLEANUP ###
