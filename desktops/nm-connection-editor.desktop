@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Network Configuration Manager
+GenericName=NM-connection-editor
+Comment=Manage and change your network connection settings
+Icon=preferences-system-network
+Exec=nm-connection-editor
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=Network;

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=File Search
+GenericName=Catfish
+Comment=Search the file system
+Keywords=files;find;locate;lookup;search;
+Categories=Files;
+Exec=/usr/bin/catfish %f
+Icon=org.xfce.catfish
+Terminal=false
+Type=Application
+MimeType=inode/directory;
+StartupWMClass=catfish

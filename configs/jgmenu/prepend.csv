@@ -1,0 +1,8 @@
+@icon,,100,15,62,62,,,,auto,auto,$HOME/Pictures/icons/gradiant-burger_60px.png
+@search,,15,95,140,20,6,left,top,#E4EAf4,#305181 0,<i>Type to Search</i>
+^sep()
+File Explorer,thunar,system-file-manager
+Web Browser,x-www-browser,firefox-esr
+Terminal,x-terminal-emulator,lxterminal
+Text Editor,geany,$HOME/Pictures/icons/org.gnome.Tau.png
+^sep()

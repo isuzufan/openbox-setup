@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+
+Name=Tint2 restart
+Comment=Lightweight panel
+Exec=$HOME/Documents/scripts/tint2/tint2-restart.sh
+Icon=$HOME/Pictures/icons/tint2.png
+Terminal=false
+Categories=Desktop;

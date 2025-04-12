@@ -1,0 +1,24 @@
+
+
+### SCREEN CAPTURES ###
+
+There are two methods for taking screen captures on this machine: 
+  -  Launching a screen capture app from the menus
+  -  Using one of three key combinations
+  
+
+## Menu Method
+  
+Launch the xfce4-screenshooter app from either of the two menus: 
+  -  The Openbox menu, under Graphics > Screenshot
+  -  The Rofi menu (Win + space)  
+  
+
+## Key Combo Method
+
+xfce4-screenshooter also has options that let you take different kinds of screen captures. I assigned keybindings in the Openbox config file ( ~/.config/openbox/rc.xml ) that, when triggered, run xfce4-shooter with the appropriate option. 
+
+The three types of screen captures are: 
+  -  Alt + Shift + s captures the entire screen
+  -  Alt + Shift + w captures the active window
+  -  Alt + Shift + d captures a user-defined region 

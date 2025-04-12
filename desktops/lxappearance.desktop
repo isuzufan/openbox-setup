@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Customize Look and Feel
+GenericName=LXAppearance
+Comment=Customizes look and feel of your desktop and applications
+Keywords=windows;preferences;settings;theme;style;appearance;
+Icon=preferences-desktop-theme
+Exec=lxappearance
+StartupNotify=true
+Categories=Settings;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Removable Drives and Media
+Comment=Configure management of removable drives and media
+Exec=thunar-volman-settings
+Icon=org.xfce.volman
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=Files;
+

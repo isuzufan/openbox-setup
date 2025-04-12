@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Firewall Settings
+GenericName=gufw
+Comment=An easy way to configure your firewall
+Keywords=gufw;security;firewall;network;
+Categories=Security;
+Exec=./$HOME/Documents/scripts/securityj/gufw.sh
+Icon=gufw
+Terminal=false
+Type=Application

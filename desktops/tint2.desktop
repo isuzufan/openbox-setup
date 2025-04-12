@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+
+Name=Tint2
+Comment=Lightweight panel
+Exec=tint2
+Icon=$HOME/Pictures/icons/tint2.png
+Terminal=false
+Categories=Desktop;

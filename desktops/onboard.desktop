@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Virtual Keyboard
+GenericName=Onboard
+Comment=Flexible onscreen keyboard
+Exec=onboard
+Terminal=false
+Type=Application
+Categories=Utility;Accessibility;
+Keywords=onscreen;keyboard;accessibility;utility;
+Icon=onboard
+X-Ubuntu-Gettext-Domain=onboard
+NoDisplay=true
+Categories=System;

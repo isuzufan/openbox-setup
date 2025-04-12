@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Conky run
+Exec=conky --daemonize --pause=1 --config=$HOME/.config/conky/.conkyrc
+StartupNotify=false
+Terminal=false
+Icon=conky-logomark-violet
+Categories=Desktop;

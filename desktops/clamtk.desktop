@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Virus Scanner
+GenericName=clamtk
+Comment=Scan for threats..
+#TryExec=/home/jeff/Documents/Scripts/apps/clamtk.sh
+Exec=~/Documents/Scripts/apps/clamtk.sh
+Icon=clamtk
+Type=Application
+Terminal=false
+Categories=Security;
+StartupNotify=true
+Keywords=antivirus;virus;malware;scan;scanner;

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Conky restart
+Exec=$HOME/Documents/scripts/conky/conky-restart.sh
+StartupNotify=false
+Terminal=false
+Icon=conky-logomark-violet
+Categories=Desktop;

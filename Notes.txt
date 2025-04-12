@@ -1,0 +1,12 @@
+Notes
+
+Stuff to come back to.
+
+1. I copy all the scripts into the $HOME/Documents/scripts/ folder.  Do I need to make them executable using chmod? 
+
+    chmod +x $HOME/Documents/scripts/apps/thunar-root.sh
+
+    If yes, do this in the script-2.sh file, right after line 130
+
+2. Redo the Openbox autostart.sh
+
